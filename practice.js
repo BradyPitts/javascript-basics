@@ -48,7 +48,7 @@ let devMountainGoal = null;
 //Code here
 
 function greeting (name) {
-  return "Hello, " + name + "."
+  return "Hello, " + name
 }
 
 //////////////////PROBLEM 7////////////////////
@@ -58,8 +58,8 @@ function greeting (name) {
 
 //Code Here
 
-function newGreeting (name) {
-  return "Hello, " + name + "."
+let newGreeting = function (name) {
+  return "Hello, " + name
 }
 
 //////////////////PROBLEM 8////////////////////
@@ -70,7 +70,7 @@ function newGreeting (name) {
 //Code Here
 
 let groceries = [
-  ["apples"], ["milk"], ["eggs"], ["bread"]
+  "apples", "milk", "eggs", "bread"
 ];
 
 //////////////////PROBLEM 9////////////////////
@@ -115,7 +115,7 @@ function nameCheck (NAMEPARAM){
     return "Hey Bryan!"
   }
   else{
-    return "Cool name, " + NAMEPARAM + "."
+    return "Cool name, " + NAMEPARAM 
   }
 
   }
@@ -157,7 +157,7 @@ function faveColorFinder(color){
     return "red is a great color"
   }
   else if (color == "green"){
-    return "green is  solid favorite color"
+    return "green is a solid favorite color"
   }
   else if (color == "black"){
     return "so trendy"
